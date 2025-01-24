@@ -102,9 +102,7 @@ function testFormCompleteness() {
 
 /* generate tractor recommendation based on user selections */
 function createRecommendation() {
-
    if (acresBox.value <= 5000) { // 5000 acres or less, no crop test needed
-      //window.alert("First if block for " + acresBox.value + " acres");
       if (monthsBox.value >= 10) { // 10+ months of farming per year
          messageHeadElement.innerHTML = "E3250";
          messageElement.innerHTML = E3250Desc;       
